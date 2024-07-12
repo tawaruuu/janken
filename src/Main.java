@@ -84,7 +84,9 @@ public class Main {
 
         }
 
+        //comの手を生成
 
+        com.createRandomHand();
 
         //以降にテストコードを追加して検証を行う
         System.out.println(user.getHand().getHandName());
